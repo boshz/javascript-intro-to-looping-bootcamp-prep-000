@@ -11,7 +11,7 @@ return array
 function whileLoop() {
   let n = 50;
   while (n > 12) {
-    (--n);
+    console.log(--n);
   }
   return "done"
 }
