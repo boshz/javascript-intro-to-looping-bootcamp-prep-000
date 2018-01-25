@@ -9,8 +9,9 @@ return array
 
 
 function whileLoop(number) {
-  let number = 0
-  while (number < 12) {
-    console.log('')
+  let number = 50
+  while (number > 12) {
+    console.log(--number);
+    return "done"
   }
 }
