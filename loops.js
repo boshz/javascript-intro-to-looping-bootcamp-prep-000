@@ -8,8 +8,7 @@ return array
 }
 
 
-function whileLoop() {
-  
+function whileLoop(n = 50) {
   while (n > 12) {
     console.log(--n);
   }
