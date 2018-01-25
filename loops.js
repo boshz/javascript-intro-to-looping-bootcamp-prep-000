@@ -8,7 +8,7 @@ return array
 }
 
 
-function whileLoop(number) {
+function whileLoop() {
   let number = 50
   while (number > 12) {
     console.log(--number);
