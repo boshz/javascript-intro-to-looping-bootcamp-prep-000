@@ -8,10 +8,10 @@ return array
 }
 
 
-function whileLoop(n) {
-  let number = 50
-  while (number > 12) {
-    console.log(--number);
+function whileLoop() {
+  let n = 50
+  while (n > 12) {
+    console.log(--n);
     return "done"
   }
 }
