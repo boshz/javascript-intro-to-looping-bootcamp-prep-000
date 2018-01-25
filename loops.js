@@ -9,7 +9,7 @@ return array
 
 
 function whileLoop() {
-  let n = 50;
+  
   while (n > 12) {
     console.log(--n);
   }
